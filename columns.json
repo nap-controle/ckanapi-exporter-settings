@@ -1,0 +1,35 @@
+{
+    "Data Owner": {
+        "pattern": "^author$",
+        "unique": true,
+        "case_sensitive": true
+    },
+    "Organization": {
+        "pattern": [ "^organization$", "^name$" ],
+        "unique": true,
+        "case_sensitive": true
+    },
+    "Organization Authorized": {
+        "pattern": [ "^organization$", "^approval_status$" ],
+        "unique": true,
+        "case_sensitive": true
+    },
+    "Delivery Unit": {
+        "pattern": ["^extras$", "^Delivery Unit$"],
+        "unique": true
+    },
+    "Contributor": {
+        "pattern": ["^extras$", "^Contributor.*"]
+    },
+    "Description": {
+        "pattern": "^notes$",
+        "unique": true,
+        "case_sensitive": true,
+        "max_length": 255
+    },
+    "Format": {
+        "pattern": ["^resources$", "^format$"],
+        "case_sensitive": true,
+        "deduplicate": true
+    }
+  }
