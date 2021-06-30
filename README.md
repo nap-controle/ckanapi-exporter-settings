@@ -8,4 +8,5 @@ To run for transportdata.be:
 
 ## Common actions op API
 
-Get all orgs: [https://www.transportdata.be/api/3/action/organization_list](https://www.transportdata.be/api/3/action/organization_list)
+Get all orgs: [https://www.transportdata.be/api/3/action/organization_list](https://www.transportdata.be/api/3/action/organization_list).  
+Get on org: [https://www.transportdata.be/api/3/action/organization_show?id=parking-brussels](https://www.transportdata.be/api/3/action/organization_show?id=parking-brussels). 
