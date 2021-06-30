@@ -7,20 +7,8 @@
         "pattern": "^title$",
         "unique": true
     },
-    "description_nl" :{
-        "pattern": ["^notes_translated$", "^nl$"],
-        "unique": true
-    },
-    "description_fr" :{
-        "pattern": ["^notes_translated$", "^fr$"],
-        "unique": true
-    },
-    "description_de" :{
-        "pattern": ["^notes_translated$", "^de$"],
-        "unique": true
-    },
-    "description_en" :{
-        "pattern": ["^notes_translated$", "^en$"],
+    "resources_description" :{
+        "pattern": ["^resources$", "^description$"],
         "unique": true
     },
     "cont_res": {
