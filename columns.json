@@ -23,8 +23,8 @@
         "pattern": ["^notes_translated$", "^en$"],
         "unique": true
     },
-    "type": {
-        "pattern": "^type$",
+    "cont_res": {
+        "pattern": "^cont_res$",
         "unique": true,
         "case_sensitive": true
     },
