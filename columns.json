@@ -3,19 +3,7 @@
         "pattern": "^id$",
         "unique": true
     },
-    "title" :{
-        "pattern": "^title$",
-        "unique": true
-    },
-    "resources_description" :{
-        "pattern": ["^resources$", "^description$"],
-        "unique": true
-    },
-    "cont_res": {
-        "pattern": "^cont_res$",
-        "unique": true,
-        "case_sensitive": true
-    },
+
     "metadata_created": {
         "pattern": "^metadata_created$",
         "unique": true,
@@ -26,67 +14,120 @@
         "unique": true,
         "case_sensitive": true
     },
+
     "language": {
         "pattern": [ "^language$" ],
+        "case_sensitive": true
+    },
+
+    "organization_id": {
+        "pattern": [ "^organization$", "^id$" ],
+        "unique": true,
+        "case_sensitive": true
+    },
+
+    "name" :{
+        "pattern": "^name$",
+        "unique": true
+    },
+
+    "notes_translated_nl" :{
+        "pattern": ["^notes_translated$", "^nl$"],
+        "unique": true
+    },
+    "notes_translated_fr" :{
+        "pattern": ["^notes_translated$", "^fr$"],
+        "unique": true
+    },
+    "notes_translated_de" :{
+        "pattern": ["^notes_translated$", "^de$"],
+        "unique": true
+    },
+    "notes_translated_en" :{
+        "pattern": ["^notes_translated$", "^en$"],
+        "unique": true
+    },
+
+    "cont_res": {
+        "pattern": "^cont_res$",
+        "unique": true,
+        "case_sensitive": true
+    },
+
+    "fluent_tags": {
+        "pattern": "^fluent_tags$",
+        "unique": true,
+        "case_sensitive": true
+    },
+
+    "temporal_start": {
+        "pattern": [ "^temporal_start$" ],
+        "case_sensitive": true
+    },
+
+    "regions_covered": {
+        "pattern": [ "^regions_covered$" ],
+        "case_sensitive": true
+    },
+
+    "theme": {
+        "pattern": [ "^theme$" ],
+        "case_sensitive": true
+    },
+
+    "publisher_name": {
+        "pattern": [ "^publisher_name$" ],
         "case_sensitive": true
     },
     "publisher_email": {
         "pattern": [ "^publisher_email$" ],
         "case_sensitive": true
     },
-    "temporal_start": {
-        "pattern": [ "^temporal_start$" ],
-        "case_sensitive": true
-    }, 
-    "regions_covered": {
-        "pattern": [ "^regions_covered$" ],
-        "case_sensitive": true
-    },
-    "theme": {
-        "pattern": [ "^theme$" ],
-        "case_sensitive": true
-    },
-    "organization_id": {
-        "pattern": [ "^organization$", "^id$" ],
-        "unique": true,
-        "case_sensitive": true
-    },
-    "organization_name": {
-        "pattern": [ "^organization$", "^name$" ],
-        "unique": true,
-        "case_sensitive": true
-    },
+
     "owner_org": {
         "pattern": [ "^owner_org$" ],
         "case_sensitive": true
     },
+
+    "contract_license": {
+        "pattern": [ "^contract_license$" ],
+        "case_sensitive": true
+    },
+
     "license_id": {
         "pattern": [ "^license_id$" ],
         "case_sensitive": true
     },
-    "license_url": {
-        "pattern": [ "^license_url$" ],
-        "case_sensitive": true
-    },
-    "agreement_declaration": {
-        "pattern": [ "^agreement_declaration$" ],
-        "unique": true,
-        "case_sensitive": true
-    },
-    "url": {
-        "pattern": ["^resources$", "^url$"],
-        "case_sensitive": true,
-        "deduplicate": true
-    },
+
     "format": {
         "pattern": ["^resources$", "^format$"],
         "case_sensitive": true,
         "deduplicate": true
     },
+
+    "acc_int": {
+        "pattern": ["^resources$", "^acc_int$"],
+        "case_sensitive": true,
+        "deduplicate": true
+    },
+
+    "acc_con": {
+        "pattern": ["^resources$", "^acc_con$"],
+        "case_sensitive": true,
+        "deduplicate": true
+    },
+
+    "url": {
+        "pattern": ["^resources$", "^url$"],
+        "case_sensitive": true,
+        "deduplicate": true
+    },
+
     "frequency": {
         "pattern": ["^frequency$"],
         "case_sensitive": true
     },
+
     "qual_ass_nl" :{
         "pattern": ["^qual_ass$", "^nl$"],
         "unique": true
@@ -103,4 +144,4 @@
         "pattern": ["^qual_ass$", "^en$"],
         "unique": true
     }
-  }
+}
