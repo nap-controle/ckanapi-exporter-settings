@@ -31,21 +31,8 @@
         "unique": true
     },
 
-    "notes_translated_nl" :{
-        "pattern": ["^notes_translated$", "^nl$"],
-        "unique": true
-    },
-    "notes_translated_fr" :{
-        "pattern": ["^notes_translated$", "^fr$"],
-        "unique": true
-    },
-    "notes_translated_de" :{
-        "pattern": ["^notes_translated$", "^de$"],
-        "unique": true
-    },
-    "notes_translated_en" :{
-        "pattern": ["^notes_translated$", "^en$"],
-        "unique": true
+    "notes_translated" :{
+        "pattern": ["^notes_translated$", "^nl$|^fr$|^de$|^en$"]
     },
 
     "cont_res": {
@@ -128,20 +115,7 @@
         "case_sensitive": true
     },
 
-    "qual_ass_nl" :{
-        "pattern": ["^qual_ass$", "^nl$"],
-        "unique": true
-    },
-    "qual_ass_fr" :{
-        "pattern": ["^qual_ass$", "^fr$"],
-        "unique": true
-    },
-    "qual_ass_de" :{
-        "pattern": ["^qual_ass$", "^de$"],
-        "unique": true
-    },
-    "qual_ass_en" :{
-        "pattern": ["^qual_ass$", "^en$"],
-        "unique": true
+    "qual_ass" :{
+        "pattern": ["^qual_ass$", "^nl$|^fr$|^de$|^en$"]
     }
 }

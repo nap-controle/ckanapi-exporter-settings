@@ -1,10 +1,14 @@
 # ckanapi-exporter-settings
 
-A repo to organize exports from transportdata.be
+A repo to organize exports from transportdata.be and check the data.
 
 To run for transportdata.be:   
 
 `python export.py > export.csv`
+
+To run some basic checks:
+
+`python check.py export.csv export-checked.csv`
 
 ## Common actions op API
 
